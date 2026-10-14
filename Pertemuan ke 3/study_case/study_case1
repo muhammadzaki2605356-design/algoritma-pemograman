@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string> 
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+
+    int Jam_kerja= 40;
+    int Tarif_per_jam= 50000;
+
+    int Gaji_total= Jam_kerja*Tarif_per_jam;
+    cout << setw(1) << "Nama" << setw(12) << "Jam kerja" << setw(15) << "Tarif per jam" << setw(13) << "Gaji total" << endl;
+    cout << "-----------------------------------------------" << endl;
+    cout << setw(1) << "Alice" << setw(7) << Jam_kerja << setw(15) << Tarif_per_jam << setw(15) << Gaji_total << endl;
+    
+    return 0;
+
+}
